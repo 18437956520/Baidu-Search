@@ -10,19 +10,30 @@
 </head>
 
 <body>
+    
     <div class="wrapper">
-        <input type="text">
-        <button>x</button>
-        <span class="splitLine"></span>
-        <button>y</button>
+            <img src="https://www.baidu.com/img/baidu_resultlogo@2.png">
+        <span class="inputWrapper">
+            <input id="keyword" type="text" autocomplete="off">
+            <span class="floatDiv">
+                <svg class="icon">
+                    <use xlink:href="#icon-microphoneicon"></use>
+                </svg>
+                <span class="splitLine"></span>
+                <svg class="icon">
+                    <use xlink:href="#icon-camera"></use>
+                </svg>
+            </span>
+        </span>
         <button>百度一下</button>
-        <ul class="suggestion">
+        <ul id="suggestion" class="suggestion">
             <li>选项1</li>
             <li>选项2</li>
             <li>选项3</li>
             <li>选项4</li>
         </ul>
     </div>
+    <script src="//at.alicdn.com/t/font_508082_xiduzmltis7wg66r.js"></script>
     <script src="./main.js"></script>
 </body>
 
